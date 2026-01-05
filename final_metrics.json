@@ -1,0 +1,14 @@
+{
+    "final_test_accuracy": 0.9940696954727173,
+    "epochs_trained": 5,
+    "classes": [
+        "Fresh",
+        "Rotten"
+    ],
+    "image_size": [
+        224,
+        224
+    ],
+    "batch_size": 32,
+    "model_architecture": "MobileNetV2 + Custom Binary Head"
+}
