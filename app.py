@@ -229,7 +229,7 @@ if st.session_state.role == "Shopkeeper":
 # Graph is compact to avoid scrolling.
 # All outputs are intentionally large and readable.
 
-MODEL_PATH = r"C:\Users\ASUS\Desktop\EXTRA PROJECT\IMAGE CLASSIFCATION 2\final_model_artifacts\food_quality_model.h5"
+MODEL_PATH = "food_quality_model.h5"
 IMG_SIZE = (224, 224)
 
 @st.cache_resource
@@ -530,3 +530,4 @@ if st.session_state.role == "Shopkeeper":
             file_name=report_name,
             mime="text/csv"
         )
+
